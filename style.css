@@ -1,0 +1,15 @@
+.image-container {
+    text-align: center;
+}
+.image-container img {
+    max-width: 50%;
+    height: auto;
+    padding: 20px;
+}
+.image-container img {
+    max-width: 20%;
+    height: auto;
+}
+.footer {
+    background-color: beige;
+}
