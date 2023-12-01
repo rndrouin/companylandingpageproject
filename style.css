@@ -1,3 +1,13 @@
+header {
+/*persistent navigation*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+/*found this to keep the nav over the cards when scrolling*/
+    z-index: 1000;
+}
+
 .image-container {
     text-align: center;
 }
@@ -6,10 +16,12 @@
     height: auto;
     padding: 20px;
 }
-.image-container img {
-    max-width: 20%;
-    height: auto;
-}
 .footer {
     background-color: beige;
+}
+section.hero {
+    padding-top: 100px;
+}
+section.services {
+    padding-top: 100px;
 }
