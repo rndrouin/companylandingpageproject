@@ -7,7 +7,6 @@ header {
 /*found this to keep the nav over the cards when scrolling*/
     z-index: 1000;
 }
-
 .image-container {
     text-align: center;
 }
@@ -24,4 +23,8 @@ section.hero {
 }
 section.services {
     padding-top: 100px;
+}
+.imagesize {
+    max-width: 75px;
+    max-height: 75px;
 }
